@@ -30,6 +30,9 @@ if (fullPrice>=50000) {
 else if (fullPrice>=20000 && fullPrice<50000) {
     console.log('Вы получаете скидку 5%!');
 }
-else {
+else if (fullPrice<0) {
+    console.log('Что-то пошло не так');
+}
+else if (fullPrice>=0 && fullPrice<20000) {
     console.log('Скидка не предусмотрена');
 }
