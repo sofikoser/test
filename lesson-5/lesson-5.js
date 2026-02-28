@@ -56,3 +56,33 @@ const getRollbackMessage = function(fullPrice) {
     }
 }
 getRollbackMessage(fullPrice)
+
+
+
+
+
+/*
+for(let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+let num = 0
+for (let i = 10; i > num; i--) {
+    console.log(i);
+}
+ 
+
+//Задание 1
+let number = prompt('Введите число');  
+
+const checkIsNumber = function (number) {
+    let num = parseFloat(number);
+    if (!isNaN(num) && isFinite(num)) {
+        return "Введенное не NaN и не бесконечность";
+    } else {
+        return "Введенное не является числом";
+    }   
+}
+
+console.log(checkIsNumber(number));
+*/
